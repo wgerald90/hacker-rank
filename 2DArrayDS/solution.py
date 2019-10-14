@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 
 def hourglass_sum(arr):
     largest_sum = None
