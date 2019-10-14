@@ -15,6 +15,5 @@ class CommandLine:
             else:
                 parser.add_argument(k, help=v[0])
         self.arguments = parser.parse_args()
-        print(__name__)
-        print(__package__)
+     
 
