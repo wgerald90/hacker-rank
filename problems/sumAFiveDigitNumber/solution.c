@@ -12,9 +12,8 @@ int main(void) {
     n = (n - remainder) / 10;
   }
 
-  if (n != 0) {
-    sum += n;
-  }
+  // The first integer in the int
+  sum += n;
 
   printf("%d\n", sum);
 
